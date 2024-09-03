@@ -23,6 +23,9 @@ test:
 cellIdPreamble: "cell-"
 
 gradientMode: "hue"
+
+cellLabelDecimalPoints: 2
+
 cells: 
   drawio:
     link:
