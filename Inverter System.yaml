@@ -108,4 +108,16 @@ cells:
       separator: "replace"
       units: "kW"
       decimalPoints: 2
+  inverter_a_battery_kw:
+    dataRef: "inverter_a_battery_kw"
+    label:
+      separator: "replace"
+      units: "kW"
+      decimalPoints: 2
+  inverter_b_battery_kw:
+    dataRef: "inverter_b_battery_kw"
+    label:
+      separator: "replace"
+      units: "kW"
+      decimalPoints: 2      
     
