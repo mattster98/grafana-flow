@@ -102,22 +102,30 @@ cells:
       separator: "replace"
       units: "kW"
       decimalPoints: 2
+  inverter_a_grid_flow:
+    dataRef: "inverter_a_grid_kw"
   inverter_b_grid_kw:
     dataRef: "inverter_b_grid_kw"
     label:
       separator: "replace"
       units: "kW"
       decimalPoints: 2
+  inverter_b_grid_flow:
+    dataRef: "inverter_b_grid_kw"
   inverter_a_battery_kw:
     dataRef: "inverter_a_battery_kw"
     label:
       separator: "replace"
       units: "kW"
       decimalPoints: 2
+  inverter_a_battery_flow:
+    dataRef: "inverter_a_battery_kw"
   inverter_b_battery_kw:
     dataRef: "inverter_b_battery_kw"
     label:
       separator: "replace"
       units: "kW"
       decimalPoints: 2      
+  inverter_b_battery_flow:
+    dataRef: "inverter_b_battery_kw"
     
