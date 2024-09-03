@@ -92,3 +92,8 @@ cells:
       thresholds:
         - {color: "#888888", level: 0}
         - {color: "light-blue", level: 100}
+  inverter_a_grid_kw:
+    dataRef: "inverter_a_grid_kw"
+  inverter_b_grid_kw:
+    dataRef: "inverter_b_grid_kw"
+    
