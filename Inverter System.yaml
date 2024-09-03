@@ -21,7 +21,7 @@ test:
   testDataBaseOffset: 1
   
 cellIdPreamble: "cell-"
-cellLabelDecimalPoints: 2
+
 gradientMode: "hue"
 cells: 
   drawio:
@@ -98,9 +98,11 @@ cells:
     label:
       separator: "replace"
       units: "kW"
+      decimalPoints: 2
   inverter_b_grid_kw:
     dataRef: "inverter_b_grid_kw"
     label:
       separator: "replace"
       units: "kW"
+      decimalPoints: 2
     
