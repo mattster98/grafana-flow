@@ -108,7 +108,7 @@ cells:
       thresholdOffValue: 10
       thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 1000
+      thresholdUprValue: 10000
       thresholdUprDurationSecs: 0.1
   inverter_b_grid_kw:
     dataRef: "inverter_b_grid_kw"
@@ -122,7 +122,7 @@ cells:
       thresholdOffValue: 10
       thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 1000
+      thresholdUprValue: 10000
       thresholdUprDurationSecs: 0.1
   inverter_a_battery_kw:
     dataRef: "inverter_a_battery_kw"
@@ -136,7 +136,7 @@ cells:
       thresholdOffValue: 10
       thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 1000
+      thresholdUprValue: 10000
       thresholdUprDurationSecs: 0.1
   inverter_b_battery_kw:
     dataRef: "inverter_b_battery_kw"
@@ -150,6 +150,6 @@ cells:
       thresholdOffValue: 10
       thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 1000
+      thresholdUprValue: 10000
       thresholdUprDurationSecs: 0.1
     
