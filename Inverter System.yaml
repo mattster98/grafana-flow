@@ -94,6 +94,12 @@ cells:
         - {color: "light-blue", level: 100}
   inverter_a_grid_kw:
     dataRef: "inverter_a_grid_kw"
+    label:
+      separator: "cr"
+      units: "kW"
   inverter_b_grid_kw:
     dataRef: "inverter_b_grid_kw"
+    label:
+      separator: "cr"
+      units: "kW"
     
