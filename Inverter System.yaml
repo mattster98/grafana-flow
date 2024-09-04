@@ -36,7 +36,7 @@ cells:
     label:
       separator: "replace"
       units: "watt"
-      decimalPoints: 0
+      decimalPoints: 2
   inverter_a_grid_flow:
     dataRef: "inverter_a_grid_kw"
     flowAnimation:
@@ -50,7 +50,7 @@ cells:
     label:
       separator: "replace"
       units: "watt"
-      decimalPoints: 0
+      decimalPoints: 2
   inverter_b_grid_flow:
     dataRef: "inverter_b_grid_kw"
     flowAnimation:
@@ -64,7 +64,7 @@ cells:
     label:
       separator: "replace"
       units: "watt"
-      decimalPoints: 0
+      decimalPoints: 2
   inverter_a_battery_flow:
     dataRef: "inverter_a_battery_kw"
     flowAnimation:
@@ -78,7 +78,7 @@ cells:
     label:
       separator: "replace"
       units: "watt"
-      decimalPoints: 0      
+      decimalPoints: 2      
   inverter_b_battery_flow:
     dataRef: "inverter_b_battery_kw"
     flowAnimation:
@@ -87,4 +87,31 @@ cells:
       thresholdLwrDurationSecs: 1
       thresholdUprValue: 5000
       thresholdUprDurationSecs: 0.5
-    
+  inverter_a_load_kw:
+    dataRef: "inverter_a_load_kw"
+    label:
+      separator: "replace"
+      units: "watt"
+      decimalPoints: 2      
+  inverter_a_load_flow:
+    dataRef: "inverter_a_load_kw"
+    flowAnimation:
+      thresholdOffValue: 10
+      thresholdLwrValue: 100
+      thresholdLwrDurationSecs: 1
+      thresholdUprValue: 5000
+      thresholdUprDurationSecs: 0.5    
+  inverter_b_load_kw:
+    dataRef: "inverter_b_load_kw"
+    label:
+      separator: "replace"
+      units: "watt"
+      decimalPoints: 2      
+  inverter_b_load_flow:
+    dataRef: "inverter_b_load_kw"
+    flowAnimation:
+      thresholdOffValue: 10
+      thresholdLwrValue: 100
+      thresholdLwrDurationSecs: 1
+      thresholdUprValue: 5000
+      thresholdUprDurationSecs: 0.5
