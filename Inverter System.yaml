@@ -12,18 +12,6 @@ cells:
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
-  inbox_depth:
-    dataRef: "test-data-large-sin"
-    label:
-      separator: "cr"
-      units: "none"
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 500}
-        - {color: "red", level: 1000}
-    link: *grafana-home
   db_transactions:
     dataRef: "test-data-large-cos"
     label:
