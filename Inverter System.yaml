@@ -1,14 +1,9 @@
-
 # Panel Config
 
-test:
-  testDataBaseOffset: 1
   
 cellIdPreamble: "cell-"
 
 gradientMode: "hue"
-
-cellLabelDecimalPoints: 0
 
 cells: 
   drawio:
