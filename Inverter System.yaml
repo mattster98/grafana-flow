@@ -1,20 +1,4 @@
----
 
-#------------------------------------------------------------------------------
-# YAML Aliases to simplify maintenance
-
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
-  - flowAnimation: &flow-slow
-      thresholdOffValue: 2
-      thresholdLwrValue: 10
-      thresholdLwrDurationSecs: 1
-      thresholdUprValue: 100
-      thresholdUprDurationSecs: 0.1
-
-#------------------------------------------------------------------------------
 # Panel Config
 
 test:
@@ -106,9 +90,9 @@ cells:
     dataRef: "inverter_a_grid_kw"
     flowAnimation:
       thresholdOffValue: 10
-      thresholdLwrValue: 1000
+      thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 10000
+      thresholdUprValue: 5000
       thresholdUprDurationSecs: 0.5
   inverter_b_grid_kw:
     dataRef: "inverter_b_grid_kw"
@@ -120,9 +104,9 @@ cells:
     dataRef: "inverter_b_grid_kw"
     flowAnimation:
       thresholdOffValue: 10
-      thresholdLwrValue: 1000
+      thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 10000
+      thresholdUprValue: 5000
       thresholdUprDurationSecs: 0.5
   inverter_a_battery_kw:
     dataRef: "inverter_a_battery_kw"
@@ -134,9 +118,9 @@ cells:
     dataRef: "inverter_a_battery_kw"
     flowAnimation:
       thresholdOffValue: 10
-      thresholdLwrValue: 1000
+      thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 10000
+      thresholdUprValue: 5000
       thresholdUprDurationSecs: 0.5
   inverter_b_battery_kw:
     dataRef: "inverter_b_battery_kw"
@@ -148,8 +132,8 @@ cells:
     dataRef: "inverter_b_battery_kw"
     flowAnimation:
       thresholdOffValue: 10
-      thresholdLwrValue: 1000
+      thresholdLwrValue: 100
       thresholdLwrDurationSecs: 1
-      thresholdUprValue: 10000
+      thresholdUprValue: 5000
       thresholdUprDurationSecs: 0.5
     
