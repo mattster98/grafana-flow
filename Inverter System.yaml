@@ -21,19 +21,6 @@ cells:
       thresholdLwrDurationSecs: 1
       thresholdUprValue: 600
       thresholdUprDurationSecs: 0.1
-  inbox_workers:
-    dataRef: "test-data-small-sin"
-    flowAnimation: *flow-slow
-  workers_reads:
-    dataRef: "test-data-small-sin"
-    label:
-      separator: "colon"
-      units: "ops"
-    labelColor:
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 100}
-    flowAnimation: *flow-slow
 
   active_workers:
     dataRef: "test-data-small-cos"
