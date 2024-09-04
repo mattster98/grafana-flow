@@ -12,17 +12,7 @@ cells:
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
-  db_transactions:
-    dataRef: "test-data-large-cos"
-    label:
-      separator: "cr"
-      units: "ops"
-    fillColor:
-      thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 400}
-        - {color: "red", level: 800}
-    link: *grafana-home
+
   inbox_transactions:
     dataRef: "test-data-large-cos"
     flowAnimation:
@@ -44,16 +34,7 @@ cells:
         - {color: "green", level: 0}
         - {color: "orange", level: 100}
     flowAnimation: *flow-slow
-  start_rate:
-    dataRef: "test-data-small-sin"
-    label:
-      separator: "colon"
-      units: "pps"
-    labelColor:
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "orange", level: 100}
-    link: *grafana-home
+
   active_workers:
     dataRef: "test-data-small-cos"
     label:
